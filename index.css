@@ -50,16 +50,6 @@ a:hover{
     position: relative;
     float: right;
 }
-input{
-    position: relative;
-    border: 1px #ccc5c5 solid;
-    width: 300px;
-    float: left;
-    height: 30px;
-    border-radius: 4px;
-    font-size: 14px;
-    padding-left: 30px;
-}
 
 .bell{
     position: absolute;
@@ -93,5 +83,77 @@ pre{
     color: #808080;
     margin-top: 6px;
     margin-left: 20px;  
+}
+/* ----------------Header --------------- */
+.main2{
+    margin: 30px 20px 20px 20px;
+}
+
+.nav{
+    float: left;
+    width:50%;
+    height: 120px;
+}
+.a1{
+    margin: 0 35px;
+}
+
+/* -----------------body-------------- */
+.txt2{
+    clear: both;
+    font-size: 55px;
+}
+.container{
+    margin-left: 20px;
+    float: left;
+    width: 40%;
+}
+.nav{
+    margin-top: 50px;
+}
+li{
+    list-style: none;
+    margin: 0 0 1rem 0;
+}
+.tick{
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+    float: left;
+    filter: invert(44%) sepia(88%) saturate(2522%) hue-rotate(202deg) brightness(98%) contrast(97%);
+}
+.hero{
+    width: 50%;
+    height: 40%;
+    float: right;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+.form{
+    position: relative;
+    width: 420px;
+    margin-top: 70px;
+    height: 40px;
+
+}
+input{ 
+    border: solid 1px;
+    padding: 5px 10px;
+    border-color: rgb(220, 213, 213);
+    color: gray;
+    width: 400px;
+    padding: 10px ;
+    float: left;
+}
+.btn2{
+    margin-bottom: 2px;
+    background-color: #3b82f6;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    padding: 9px 15px;
+    bottom: 0;
+    right: 0;
+    position: absolute;
 }
 
