@@ -44,12 +44,12 @@ a:hover{
     padding-bottom: 25px;
 }
 
-.container{
+/* .container{
     width: 33%;
     height: inherit;
     position: relative;
     float: right;
-}
+} */
 
 .bell{
     position: absolute;
