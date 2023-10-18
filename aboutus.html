@@ -38,21 +38,43 @@
         h2 {
             font-size: 20px;
             margin-top: 20px;
+            text-align: center;
         }
 
         p {
             font-size: 16px;
             line-height: 1.6;
-        }
+            
+            text-align: justify;
 
+        }
+        .team-member-box1{
+            width: 50%;
+            display: flex;
+            flex-wrap:wrap;
+            justify-content:space-around;
+            margin:auto;
+        }
+        .team-member-box{
+            width:80%;
+            display:flex;
+            flex-wrap:wrap;
+            justify-content:space-around;
+            margin:auto;
+        }
         .team-member {
             display: flex;
+            flex-basis: 50%;
+            margin: auto;
+            position: relative;
             margin-top: 20px;
+            flex-wrap: wrap;
         }
 
         .team-member img {
             max-width: 100px;
             border-radius: 50%;
+            position: relative;
         }
 
         .team-member-info {
@@ -61,6 +83,7 @@
         .content{
             position: relative;
             margin-top: 200px;
+            width: 100%;
         }
     </style>
     
@@ -85,23 +108,77 @@
     </header>
     <div class="container">
         <h2>Our Team</h2>
-        <div class="team-member">
-            <img src="team-member1.jpg" alt="Team Member 1" width="`100px" height="100px">
+        <div class="team-member team-member-box1" >
+            <img src="p1.jpg" alt="Team Member 1" width="`100px" height="100px">
             <div class="team-member-info">
                 <h3>Reyog paneru</h3>
                 <p>team leader </p>
                 <p> very handsome </p>
             </div>
+            <br>
+            <br>
         </div>
-        <div class="team-member">
-            <img src="p1.jpg" alt="Team Member 2" width="`100px" height="100px">
-            <div class="team-member-info">
-                <h3>sakchyam karki </h3>
-                <p>member</p>
-                <p>dont know about him </p>
+        <div class="team-member-box">
+            <div class="team-member">
+                <img src="team-member1.jpg" alt="Team Member 1" width="`100px" height="100px">
+                <div class="team-member-info">
+                    <h3>Reyog paneru</h3>
+                    <p>team leader </p>
+                    <p> very handsome </p>
+                </div>
             </div>
-        
-        <div>
+            <br>
+            <br>
+            <div class="team-member">
+                <img src="p1.jpg" alt="Team Member 2" width="`100px" height="100px">
+                <div class="team-member-info">
+                    <h3>sakchyam karki </h3>
+                    <p>member</p>
+                    <p>dont know about him </p>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="team-member">
+                <img src="team-member1.jpg" alt="Team Member 1" width="`100px" height="100px">
+                <div class="team-member-info">
+                    <h3>Reyog paneru</h3>
+                    <p>team leader </p>
+                    <p> very handsome </p>
+                </div>
+            </div>
+            <br><br>
+            <div class="team-member">
+                <img src="p1.jpg" alt="Team Member 2" width="`100px" height="100px">
+                <div class="team-member-info">
+                    <h3>sakchyam karki </h3>
+                    <p>member</p>
+                    <p>dont know about him </p>
+                </div>
+            </div>
+            <br> 
+            <br>
+            <div class="team-member">
+                <img src="team-member1.jpg" alt="Team Member 1" width="`100px" height="100px">
+                <div class="team-member-info">
+                    <h3>Reyog paneru</h3>
+                    <p>team leader </p>
+                    <p> very handsome </p>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="team-member">
+                <img src="p1.jpg" alt="Team Member 2" width="`100px" height="100px">
+                <div class="team-member-info">
+                    <h3>sakchyam karki </h3>
+                    <p>member</p>
+                    <p>dont know about him </p>
+                </div>
+            </div>
+            <br>
+            <br>
+        </div>
         <div class="content">
             <h2>Who We Are</h2>
             <p>We are a group of young minds on a mission. The GitHub Warriors started as a project fueled by our shared enthusiasm for computer science and a desire to contribute positively to the world of education. Comprising bright and motivated individuals, our team works tirelessly to create a platform that brings a fresh perspective to the world of English learning.</p>
