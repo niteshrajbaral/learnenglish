@@ -32,7 +32,9 @@
         }
 
         h1 {
-            font-size: 24px;
+            font-size: 30px;
+            text-align: center;
+            font-family:'Lobster'
         }
 
         h2 {
@@ -85,6 +87,95 @@
             margin-top: 200px;
             width: 100%;
         }
+        /* 
+        nav bar
+         */
+         *{
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            margin: 0px;
+        }
+        main{
+            margin: 0px;
+            position: relative;
+            height: 50px;
+            width: 100%;
+            padding:10px 0 0 0px;
+            box-shadow: 0 1px 10px -1px rgb(0 0 0 / 20%);
+        }
+        .logo{
+            position: absolute;  
+            height: 50px;
+            width: 50px;
+            left: 50px;
+            margin-top: 0px;
+        }
+        .text1{
+            font-size: 25px;
+            color: black;
+            width: 100px;
+            margin-top: 0px;
+            padding-bottom: 10px;
+            position: absolute;
+            left: 75px;
+        }
+        nav{
+            position: absolute;
+            width: 50%;
+            left: 230px;
+            height: 100%;
+            margin-top: 8px;
+            color: #808080;
+            font-size: 25px;
+        }
+        a{
+            margin-right: 35px;
+        }
+        a:hover{
+            border-bottom: 2px solid #6366F1;
+            color: black;
+            padding-bottom: 25px;
+        }
+
+        /* .container{
+            width: 33%;
+            height: inherit;
+            position: relative;
+            float: right;
+        } */
+
+        .bell{
+            position: absolute;
+            right: 65px;
+            height: 20px;
+            width: 20px;
+            margin-top: 3px;
+            filter: invert(55%) sepia(0%) saturate(0%) hue-rotate(219deg) brightness(99%) contrast(89%);
+            
+        }
+        .searchicon{
+            position: absolute;
+            left: 5px;
+            top: 5px;
+            height: 20px;
+            width: 20px;
+            filter: invert(55%) sepia(0%) saturate(0%) hue-rotate(219deg) brightness(99%) contrast(89%);
+
+        }
+        .user{
+            height: 25px;
+            width: 25px;
+            border-radius: 50%;
+            position: absolute;
+            right: 20px;
+            margin-top: 0px;
+        }
+        pre{
+            position: absolute;
+            float: left;
+            color: #808080;
+            margin-top: 6px;
+            margin-left: 20px;  
+        }
     </style>
     
 </head>
@@ -93,6 +184,7 @@
     <main>
         <img class="logo" src="./task-nav-logo.jpg" alt="logo">
         <!-- <span class="text1"> <b> REYOG</b></span> -->
+        <div class="nav">
         <nav>
             <a href="index.html">HOME</a>
             <a href="class.html">CLASS</a>
@@ -100,14 +192,16 @@
             <a href="contact.html">CONTACT</a>
             <a href="grammar.html">GRAMMAR</a>
         </nav>
-           
+           </div>
     </main>
     <header>
    
-        <center><h1>About Us - The GitHub Warriors</h1></center>
+    <h1>About Us - The GitHub Warriors</h1>
     </header>
     <div class="container">
-        <h2>Our Team</h2>
+        <div class="h1">
+           <h1 >Our Team</h1>
+       </div>
         <div class="team-member team-member-box1" >
             <img src="p1.jpg" alt="Team Member 1" width="`100px" height="100px">
             <div class="team-member-info">
@@ -122,8 +216,8 @@
             <div class="team-member">
                 <img src="team-member1.jpg" alt="Team Member 1" width="`100px" height="100px">
                 <div class="team-member-info">
-                    <h3>Reyog paneru</h3>
-                    <p>team leader </p>
+                    <h3>sakchyam karki</h3>
+                    <p>member </p>
                     <p> very handsome </p>
                 </div>
             </div>
@@ -132,7 +226,7 @@
             <div class="team-member">
                 <img src="p1.jpg" alt="Team Member 2" width="`100px" height="100px">
                 <div class="team-member-info">
-                    <h3>sakchyam karki </h3>
+                    <h3>neeraj gurung </h3>
                     <p>member</p>
                     <p>dont know about him </p>
                 </div>
@@ -142,7 +236,7 @@
             <div class="team-member">
                 <img src="team-member1.jpg" alt="Team Member 1" width="`100px" height="100px">
                 <div class="team-member-info">
-                    <h3>Reyog paneru</h3>
+                    <h3> dipson pandey </h3>
                     <p>team leader </p>
                     <p> very handsome </p>
                 </div>
@@ -151,7 +245,7 @@
             <div class="team-member">
                 <img src="p1.jpg" alt="Team Member 2" width="`100px" height="100px">
                 <div class="team-member-info">
-                    <h3>sakchyam karki </h3>
+                    <h3>prassanna shahi  </h3>
                     <p>member</p>
                     <p>dont know about him </p>
                 </div>
@@ -161,7 +255,7 @@
             <div class="team-member">
                 <img src="team-member1.jpg" alt="Team Member 1" width="`100px" height="100px">
                 <div class="team-member-info">
-                    <h3>Reyog paneru</h3>
+                    <h3> prabhu ram basnet </h3>
                     <p>team leader </p>
                     <p> very handsome </p>
                 </div>
@@ -171,7 +265,7 @@
             <div class="team-member">
                 <img src="p1.jpg" alt="Team Member 2" width="`100px" height="100px">
                 <div class="team-member-info">
-                    <h3>sakchyam karki </h3>
+                    <h3>aardsha baral </h3>
                     <p>member</p>
                     <p>dont know about him </p>
                 </div>
