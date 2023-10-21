@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="aboutus.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
     <title>LEARN ENGLISH </title>
     <style>
         body {
@@ -94,14 +95,7 @@
             font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
             margin: 0px;
         }
-        main{
-            margin: 0px;
-            position: relative;
-            height: 50px;
-            width: 100%;
-            padding:10px 0 0 0px;
-            box-shadow: 0 1px 10px -1px rgb(0 0 0 / 20%);
-        }
+        
         .logo{
             position: absolute;  
             height: 50px;
@@ -118,82 +112,46 @@
             position: absolute;
             left: 75px;
         }
-        nav{
-            position: absolute;
-            width: 50%;
-            left: 230px;
-            height: 100%;
-            margin-top: 8px;
-            color: #808080;
-            font-size: 25px;
+       .text-unselected{
+        color: white;
+       }
+       @media screen and (max-width:770px){
+        .team-member{
+            flex-basis: 100%;
         }
-        a{
-            margin-right: 35px;
-        }
-        a:hover{
-            border-bottom: 2px solid #6366F1;
-            color: black;
-            padding-bottom: 25px;
-        }
-
-        /* .container{
-            width: 33%;
-            height: inherit;
-            position: relative;
-            float: right;
-        } */
-
-        .bell{
-            position: absolute;
-            right: 65px;
-            height: 20px;
-            width: 20px;
-            margin-top: 3px;
-            filter: invert(55%) sepia(0%) saturate(0%) hue-rotate(219deg) brightness(99%) contrast(89%);
-            
-        }
-        .searchicon{
-            position: absolute;
-            left: 5px;
-            top: 5px;
-            height: 20px;
-            width: 20px;
-            filter: invert(55%) sepia(0%) saturate(0%) hue-rotate(219deg) brightness(99%) contrast(89%);
-
-        }
-        .user{
-            height: 25px;
-            width: 25px;
-            border-radius: 50%;
-            position: absolute;
-            right: 20px;
-            margin-top: 0px;
-        }
-        pre{
-            position: absolute;
-            float: left;
-            color: #808080;
-            margin-top: 6px;
-            margin-left: 20px;  
-        }
+    
+       }
     </style>
     
 </head>
 <body>
 
-    <main>
-        <img class="logo" src="./task-nav-logo.jpg" alt="logo">
-        <!-- <span class="text1"> <b> REYOG</b></span> -->
-        <div class="nav">
-        <nav>
-            <a href="index.html">HOME</a>
-            <a href="class.html">CLASS</a>
-            <a href="aboutus.html">ABOUT US</a>
-            <a href="contact.html">CONTACT</a>
-            <a href="grammar.html">GRAMMAR</a>
-        </nav>
-           </div>
-    </main>
+    <!-- ----------------------nav bar------------------------ -->
+    <ul class="nav nav-tabs text-bg-dark nav-fill" >
+        <li class="nav-item ">
+            <a class="nav-link text-unselected" aria-current="page" href="index.html">HOME</a>
+          </li>
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-unselected" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">CLASSES</a>
+              <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="class6.html">CLASS 6</a></li>
+                  <li><a class="dropdown-item" href="class7.html">CLASS 7</a></li>
+                  <li><a class="dropdown-item" href="class8.html">CLASS 8</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="class9.html">CLASS 9</a></li>
+              </ul>
+          </li>
+          <li class="nav-item ">
+              <a class="nav-link active text-unselected" href="#">ABOUT US</a>
+          </li>
+          <li class="nav-item ">
+              <a class="nav-link text-unselected" href="grammar.html">GRAMMAR</a>
+          </li>
+          <li class="nav-item ">
+              <a class="nav-link text-unselected" href="contact.html">CONTACT US</a>
+          </li>
+      </ul>
+      <!-- --------------------------/nav bar/----------------------- -->
     <header>
    
     <h1>About Us - The GitHub Warriors</h1>
@@ -216,7 +174,7 @@
             <div class="team-member">
                 <img src="team-member1.jpg" alt="Team Member 1" width="`100px" height="100px">
                 <div class="team-member-info">
-                    <h3>sakchyam karki</h3>
+                    <h5>sakchyam karki</h5>
                     <p>member </p>
                     <p> very handsome </p>
                 </div>
@@ -226,7 +184,7 @@
             <div class="team-member">
                 <img src="p1.jpg" alt="Team Member 2" width="`100px" height="100px">
                 <div class="team-member-info">
-                    <h3>neeraj gurung </h3>
+                    <h5>neeraj gurung </h5>
                     <p>member</p>
                     <p>dont know about him </p>
                 </div>
@@ -236,7 +194,7 @@
             <div class="team-member">
                 <img src="team-member1.jpg" alt="Team Member 1" width="`100px" height="100px">
                 <div class="team-member-info">
-                    <h3> dipson pandey </h3>
+                    <h5> dipson pandey </h5>
                     <p>team leader </p>
                     <p> very handsome </p>
                 </div>
@@ -245,7 +203,7 @@
             <div class="team-member">
                 <img src="p1.jpg" alt="Team Member 2" width="`100px" height="100px">
                 <div class="team-member-info">
-                    <h3>prassanna shahi  </h3>
+                    <h5>prassanna shahi  </h5>
                     <p>member</p>
                     <p>dont know about him </p>
                 </div>
@@ -255,7 +213,7 @@
             <div class="team-member">
                 <img src="team-member1.jpg" alt="Team Member 1" width="`100px" height="100px">
                 <div class="team-member-info">
-                    <h3> prabhu ram basnet </h3>
+                    <h5> prabhu ram basnet </h5>
                     <p>team leader </p>
                     <p> very handsome </p>
                 </div>
@@ -265,7 +223,7 @@
             <div class="team-member">
                 <img src="p1.jpg" alt="Team Member 2" width="`100px" height="100px">
                 <div class="team-member-info">
-                    <h3>aardsha baral </h3>
+                    <h5>aardsha baral </h5>
                     <p>member</p>
                     <p>dont know about him </p>
                 </div>
@@ -300,5 +258,7 @@
         </div>
         
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
 </body>
 </html>
